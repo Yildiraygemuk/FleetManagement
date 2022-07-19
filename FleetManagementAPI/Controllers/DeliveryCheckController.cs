@@ -9,7 +9,6 @@ namespace FleetManagementAPI.Controllers
     public class DeliveryCheckController : ControllerBase
     {
         private readonly IPackageService _packageService;
-
         public DeliveryCheckController(IPackageService packageService)
         {
             _packageService = packageService;

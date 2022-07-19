@@ -11,7 +11,6 @@ namespace WebAPI.Controllers
     public class BagController : ControllerBase
     {
         private readonly IBagService _bagService;
-
         public BagController(IBagService bagService)
         {
             _bagService = bagService;

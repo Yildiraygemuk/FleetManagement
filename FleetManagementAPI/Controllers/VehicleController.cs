@@ -11,7 +11,6 @@ namespace WebAPI.Controllers
     public class VehicleController : ControllerBase
     {
         private readonly IVehicleService _vehicleService;
-
         public VehicleController(IVehicleService vehicleService)
         {
             _vehicleService = vehicleService;

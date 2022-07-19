@@ -42,6 +42,5 @@ namespace WebAPI.Controllers
             var result = _packageService.AddPackageToBag(bagInformationDto);
             return Ok(result);
         }
-
     }
 }
